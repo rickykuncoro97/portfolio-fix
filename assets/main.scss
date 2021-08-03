@@ -1,0 +1,69 @@
+@import '_variable.scss';
+
+@font-face {
+  font-family: 'LeagueSpartan-Bold';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/LeagueSpartan-Bold.ttf') format('truetype');
+}
+
+// @font-face {
+//   font-family: 'specialalphabetsp10';
+//   src: url('~assets/fonts/specialalphabetsp10') format('truetype');
+// }
+
+
+@font-face {
+  font-family: 'Ubuntu-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/Ubuntu-Regular.ttf') format('truetype');
+}
+
+
+.tebaldikit{
+    font-weight: 600;
+}
+
+.h-0-8{
+    font-size: 0.8rem;
+}
+
+.p-10 {
+  padding: 5rem !important;
+}
+
+p {
+  font-family: $base-font !important;
+}
+
+.utama{
+    background-color: $base-color;
+}
+
+.bg-utama {
+  background-color: $base-background;
+}
+
+.font-10pt{
+    font-size: 10pt;
+}
+
+.bg-kedua {
+  background-color: $base-color2;
+}
+
+hr.new4 {
+    border: 5px solid $base-color;
+    opacity: 1;
+}
+
+.button-kuning{
+    width: 100%;
+    background-color: $base-color;
+    font-family: $base-font;
+    border: 0;
+    padding: 0.5rem;
+}
