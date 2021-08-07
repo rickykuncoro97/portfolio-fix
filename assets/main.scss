@@ -22,6 +22,21 @@
   src: url('~assets/fonts/Ubuntu-Regular.ttf') format('truetype');
 }
 
+div{
+  font-family: $base-font !important;
+}
+
+.warna-primary{
+  color: $base-color;
+}
+
+.warna-ketiga{
+  color: $base-color3;
+}
+
+.warna-keempat{
+  color: $base-color4;
+}
 
 .tebaldikit{
     font-weight: 600;
@@ -66,4 +81,9 @@ hr.new4 {
     font-family: $base-font;
     border: 0;
     padding: 0.5rem;
+
+    &:active{
+      background-color: $base-color4;
+      color: white;
+    }
 }

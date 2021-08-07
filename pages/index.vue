@@ -2,10 +2,10 @@
   <div class="container-fluid bg-utama">
     <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
     <div class="row">
-      <div class="col-3 bg-white">
+      <div class="col-3 bg-white h-100">
         <div class="p-5">
           <div class="d-flex justify-content-center">
-            <img :src="config.menukiri.img_user" alt="user">
+            <img :src="config.menukiri.img_user" class="rounded-circle" alt="user" width="150px" height="150px">
           </div>
           <div class="d-flex justify-content-center">
             <p class="mt-3 h5 tebaldikit mb-3">{{config.menukiri.nama}}</p>
@@ -70,9 +70,11 @@
             <button class="button-kuning">Download CV</button>
           </a>
         </div>
-
       </div>
       <div class="col-9">
+        <Bannerperkenalan :data="config.menukanan.bannerperkenalan"/>
+        <Pendidikan :data="config.menukanan.pendidikan" />
+        <Pendidikan :data="config.menukanan.pekerjaan" />
       </div>
     </div>
   </div>
