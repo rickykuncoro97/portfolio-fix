@@ -127,4 +127,29 @@ export const menukanan = {
         deskripsikanan: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui"
       }]
   },
+  portfolio: {
+    judul: "Portfolio",
+    details: [
+      {
+        //gmbar bisa dimasukkin ke assets atau pake https jika dari luar
+        img: "https://lh5.googleusercontent.com/kAx4YMvZBUvCulfm4N_5YflUBm-zuIPJSr_9ZrIGqU-ai-xrulg5Yxw7x5fSHbMys7vG5iNVa3z_ik9ziT9X=w1366-h695-rw",
+        url: "https://market.petnpop.co.id"
+      },
+      {
+        //gmbar bisa dimasukkin ke assets atau pake https jika dari luar
+        img: "https://lh5.googleusercontent.com/kAx4YMvZBUvCulfm4N_5YflUBm-zuIPJSr_9ZrIGqU-ai-xrulg5Yxw7x5fSHbMys7vG5iNVa3z_ik9ziT9X=w1366-h695-rw",
+        url: "https://market.petnpop.co.id"
+      },
+      {
+        //gmbar bisa dimasukkin ke assets atau pake https jika dari luar
+        img: "https://lh5.googleusercontent.com/kAx4YMvZBUvCulfm4N_5YflUBm-zuIPJSr_9ZrIGqU-ai-xrulg5Yxw7x5fSHbMys7vG5iNVa3z_ik9ziT9X=w1366-h695-rw",
+        url: "https://market.petnpop.co.id"
+      },
+      {
+        //gmbar bisa dimasukkin ke assets atau pake https jika dari luar
+        img: "https://lh5.googleusercontent.com/kAx4YMvZBUvCulfm4N_5YflUBm-zuIPJSr_9ZrIGqU-ai-xrulg5Yxw7x5fSHbMys7vG5iNVa3z_ik9ziT9X=w1366-h695-rw",
+        url: "https://market.petnpop.co.id"
+      },
+    ]
+  }
 }

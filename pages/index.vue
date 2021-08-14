@@ -75,6 +75,7 @@
         <Bannerperkenalan :data="config.menukanan.bannerperkenalan"/>
         <Pendidikan :data="config.menukanan.pendidikan" />
         <Pendidikan :data="config.menukanan.pekerjaan" />
+        <Portfolio :data="config.menukanan.portfolio" />
       </div>
     </div>
   </div>
