@@ -72,17 +72,28 @@
         </div>
       </div>
       <div class="col-9">
-        <Bannerperkenalan :data="config.menukanan.bannerperkenalan"/>
+        <Bannerperkenalan :data="config.menukanan.bannerperkenalan" />
         <Pendidikan :data="config.menukanan.pendidikan" />
         <Pendidikan :data="config.menukanan.pekerjaan" />
         <Portfolio :data="config.menukanan.portfolio" />
+        <div class="row">
+          <div class="col-8">
+            <LeaveUs :data="config.menukanan.leaveus" />
+          </div>
+          <div class="col-4">
+            <contact-information :data="config.menukanan.portfolio" />
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
 </template>
 <script>
+import ContactInformation from '../components/ContactInformation.vue';
   import * as config from '../static/data';
   export default {
+  components: { ContactInformation },
     data() {
       return {
         config
